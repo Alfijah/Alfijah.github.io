@@ -11,7 +11,7 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Urbanist:wght@100;200&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
     </style>
 </head>
 
@@ -31,48 +31,51 @@
     </header>
     <main>
         <section class="section1 section-bg">
-            <div class="text1">
+            <div class="intro-head">
                 <h2>building you exquisite websites & web applications.</h2>
-                <div class="line1"></div>
-                <p><span><a href="#between-space1">Get to know me.</a><br><a href="#between-space1"><i
-                                class="fas fa-chevron-down"></i></a></span></p>
             </div>
         </section>
+        <div class="intro-text">
+            <p><a href="#between-space1">Get to know me.<br><i
+                class="fas fa-chevron-down arrow"></i></a></p>
+        </div>
+        
         <div id="between-space1"></div>
         <section class="section2" id="about">
             <div class="subsection2">
                 <img src="https://i.ibb.co/1JxK3LC/20200914-093857.jpg" alt="profile picture">
-                <div class="text2">
-                    <h2>about me.</h2>
-                    <div class="line2"></div>
-                    <p>I am a driven and inquisitive person with a strong sense of responsibility.<span> Structure,
-                            accuracy, progressiveness and efficiency are the skills that best describe me.</span>
-                        <br><br>
-                        <em><span>Likes:</span></em> clean code, structure, fitnessing, mountainbiking, snowboarding, FC
-                        Barcelona, Sudoku & Logikwis <br><br>
-                        <em><span>Dislikes:</span></em> messy code, unfriendly people
-                    </p>
+                <div class="personal-data">
+                    <div class="text2">
+                        <h2>about me.</h2>
+                        
+                            <p>I am a driven and inquisitive person with a strong sense of responsibility.<span> Structure,
+                                    accuracy, progressiveness and efficiency are the skills that best describe me.</span>
+                                <br><br>
+                                <em><span>Likes:</span></em> clean code, structure, fitnessing, mountainbiking, snowboarding, FC
+                                Barcelona, Sudoku & Logikwis <br><br>
+                                <em><span>Dislikes:</span></em> messy code, unfriendly people
+                            </p>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="section3" id="skills">
             <div class="subsection3">
                 <h2>skills.</h2>
-                <div class="line3"></div>
                 <div class="skills">
                     <div class="skill-category">
                         <h3>C#</h3>
-                        <ul>
+                        <ul class="skill-list">
                             <li>Building a 'password check' system.</li>
                             <li>Building a Magic 8-ball system.</li>
                             <li>Building a Pomodoro timer.</li>
                             <li>Building a small application to calculate costs for architectural blueprints.</li>
                             <li>Building a mini dating profile to make personal data entry possible.</li>
-                        </ul>
+                        </ul>     
                     </div>
                     <div class="skill-category">
                         <h3>HTML<br>/CSS<br>/Sass</h3>
-                        <ul>
+                        <ul class="skill-list">
                             <li>Building a responsive personal portfolio website.</li>
                             <li>Building a responsive 'Theehuisje' landing page.</li>
                             <li>Building a website for een fashion blog.</li>
@@ -81,7 +84,7 @@
                     </div>
                     <div class="skill-category">
                         <h3>SQL</h3>
-                        <ul>
+                        <ul class="skill-list">
                             <li>Building tables using CRUD.</li>
                             <li>Applying aggregate functions.</li>
                             <li>Modeling data for a copy version of Lyft (ride sharing platform)</li>
@@ -90,107 +93,106 @@
                 </div>
             </div>
             <div class="matrix">
-                <p>Skills matrix <br>
-                    <span>1 = little experience, 2 = average experience, 3 = experienced, 4 = very experienced</span>
-                </p>
+                <p class="matrix-title">Skills matrix</p>
+                <p class="matrix-rating">1 = little experience, 2 = average experience, 3 = experienced, 4 = very experienced</p>
                 <div class="table-outer">
                     <table class="table">
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>1</th>
-                                <th>2</th>
-                                <th>3</th>
-                                <th>4</th>
+                                <th class="thead">1</th>
+                                <th class="thead">2</th>
+                                <th class="thead">3</th>
+                                <th class="thead">4</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><span><strong><em>Programming & databases</em></strong></span></td>
+                                <td class="table-title first-column"><strong><em>Programming & databases</em></strong></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>C#</td>
+                                <td class="first-column">C#</td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>HTML/CSS</td>
+                                <td class="first-column">HTML/CSS</td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Sass</td>
+                                <td class="first-column">Sass</td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>SQL</td>
+                                <td class="first-column">SQL</td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td><span><strong><em>Tools</em></strong></span></td>
+                                <td class="table-title first-column"><strong><em>Tools</em></strong></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>SPSS</td>
+                                <td class="first-column">SPSS</td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td><span><strong><em>Project management</em></strong></span></td>
+                                <td class="table-title first-column"><strong><em>Project management</em></strong></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>Scrum</td>
+                                <td class="first-column">Scrum</td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td><span><strong><em>Office</em></strong></span></td>
+                                <td class="table-title first-column"><strong><em>Office</em></strong></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>MS Excel</td>
+                                <td class="first-column">MS Excel</td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>MS Word</td>
+                                <td class="first-column">MS Word</td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td>MS Powerpoint</td>
+                                <td class="first-column">MS Powerpoint</td>
                                 <td></td>
                                 <td></td>
                                 <td>X</td>
@@ -201,7 +203,7 @@
                 </div>
             </div>
         </section>
-
+        
         <section class="section4" id="contact">
             <div class="subsection4">
                 <div class="text4">
@@ -215,7 +217,7 @@
                     </p>
                 </div>
                 <div class="contact-form">
-                    <form action="">
+                    <form action="" class="form-content">
                         <input type="text" id="fName" name="fName" value="First name">
                         <input type="text" id="lName" name="lName" value="Last name">
                         <input type="email" id="email" name="email" value="Email">
